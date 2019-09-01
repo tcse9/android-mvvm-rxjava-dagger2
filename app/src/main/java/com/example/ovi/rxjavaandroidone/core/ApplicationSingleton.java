@@ -8,8 +8,8 @@ import android.content.pm.Signature;
 import android.content.res.Resources;
 import android.net.ConnectivityManager;
 import android.provider.Settings;
-import android.support.multidex.MultiDex;
-import android.support.multidex.MultiDexApplication;
+import androidx.multidex.MultiDex;
+import androidx.multidex.MultiDexApplication;
 import android.util.Base64;
 import android.util.Log;
 

@@ -3,7 +3,7 @@
     package="com.example.ovi.rxjavaandroidone">
 
     <uses-permission android:name="android.permission.INTERNET"/>
-    M<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
         android:name=".core.ApplicationSingleton"

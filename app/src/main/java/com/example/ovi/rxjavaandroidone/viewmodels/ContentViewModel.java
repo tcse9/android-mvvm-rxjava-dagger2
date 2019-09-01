@@ -1,8 +1,8 @@
 package com.example.ovi.rxjavaandroidone.viewmodels;
 
 import android.app.Application;
-import android.arch.lifecycle.AndroidViewModel;
-import android.arch.lifecycle.MutableLiveData;
+import androidx.lifecycle.AndroidViewModel;
+import androidx.lifecycle.MutableLiveData;
 
 import com.example.ovi.rxjavaandroidone.core.ApplicationSingleton;
 import com.example.ovi.rxjavaandroidone.models.Content;
@@ -40,7 +40,7 @@ public class ContentViewModel extends AndroidViewModel {
 
 
     /**
-     * Returns the {@link android.arch.lifecycle.LiveData} i.e. content list provided by the server
+     * Returns the {@link androidx.lifecycle.LiveData} i.e. content list provided by the server
      * @return
      */
     public MutableLiveData<List<Content>> getContentList() {

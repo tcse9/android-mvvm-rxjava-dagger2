@@ -1,7 +1,7 @@
 package com.example.ovi.rxjavaandroidone.repository;
 
 
-import android.arch.lifecycle.MutableLiveData;
+import androidx.lifecycle.MutableLiveData;
 import android.util.Log;
 
 import com.example.ovi.rxjavaandroidone.models.Content;
